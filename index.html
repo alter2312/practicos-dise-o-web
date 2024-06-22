@@ -1,0 +1,60 @@
+<!-- asd -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button class="btn-menu" id="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu" id="menu">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">registrarse</a></li>
+                <li><a href="">servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Login</h1>
+        <form>
+            <label>
+                <div class="input-group">
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="text" maxlength="30">
+                    <span>Usuario</span>
+                </div>
+            </label>
+            <label>
+                <div class="input-group">
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" maxlength="30">
+                    <span>Contraseña</span>
+                </div>
+            </label>
+            <label>
+                <input type="checkbox">
+                <span>Recordar usuario</span>
+            </label>
+            <input type="button" value="Iniciar sesión">
+            <div>
+                <a href="#">¿Olvidó su contraseña?</a>
+                <a href="#">Registrar usuario</a>
+            </div>
+        </form>
+    </main>
+    <script src="login.js"></script>
+</body>
+
+</html>
